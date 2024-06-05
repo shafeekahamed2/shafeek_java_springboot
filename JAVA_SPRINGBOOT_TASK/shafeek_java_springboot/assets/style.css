@@ -1,0 +1,45 @@
+.body{
+    background: rgb(2,0,36);
+    background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(80,80,203,1) 37%, rgba(0,212,255,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(80,80,203,1) 37%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(80,80,203,1) 37%, rgba(0,212,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#00d4ff",GradientType=1);
+}
+
+.container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 150px;
+    margin: 450px;
+    margin-top: 100px;
+    border:3px solid rgb(11, 56, 94);
+    width: 100px;
+    height: 290px;
+    border-radius: 20px;
+    }
+
+.form{
+   margin-top:-149px; 
+     }
+
+.lable{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style:italic;
+    font-weight: 500;
+   text-align: left;
+    display: flex;
+}
+
+.input{
+
+    border: 1px  white;
+    border-radius: 50px;
+    height: 30px;
+    width: 350px;
+}
+
+
+::-webkit-input-placeholder {
+    color: #908d8d;
+    text-align:center}
